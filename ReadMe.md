@@ -2,7 +2,7 @@
 
 This repository documents two designs for a programmable RAM cartridge for the Roland JX8P synthesizer which I had designed and built in late 1985. Prior to this design my only option would have been to buy an expensive Roland MC-16C Memory Cartridge which held just 16 patches. With my new design, the single plug-in cartridge could handle 256 patches and be programmed by an extermal computer.
 
-Please also refer to my [Roland JX8P Synthesizer Patch Collection](https://ww.github.com/rcl9/Roland-JX8P-Synthesizer-Patch-Collection).
+Please also refer to my [Roland JX8P Synthesizer Patch Collection](https://github.com/rcl9/Roland-JX8P-Synthesizer-Patch-Collection).
 
 Each RAM cartridge would allow for 16 patches selectable from 8 different banks. The binary images would be saved to/from the cartridges from an external Z80 computer that had a custom Roland-style connector and interface.
 
@@ -11,7 +11,7 @@ Each RAM cartridge would allow for 16 patches selectable from 8 different banks.
 </div>
 
 <div style="text-align:center">
-<img src="/Images/1985_12 - Roland JX8P synth memory cartridges.jpg %232.jpg" alt="" style="width:70%; height:auto;">
+<img src="/Images/1985_12 - Roland JX8P synth memory cartridges %232.jpg" alt="" style="width:70%; height:auto;">
 </div>
 
 The 8K 6264 CMOS RAM chips were backed up from a 3V coin battery which was controlled by a Dallas DS1210 that converted the CMOS RAM into non-volatile memory.
