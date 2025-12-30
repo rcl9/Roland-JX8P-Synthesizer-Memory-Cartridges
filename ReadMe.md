@@ -27,3 +27,9 @@ Reading and writing the binary images to the RAM cartridges was done via my pers
 <div style="text-align:center">
 <img src="/Images/1985_03 - Colossus Control Computer.jpg" alt="" style="width:70%; height:auto;">
 </div>
+
+# Binary-Image to SysEx File Converter
+
+The *RCL's Patch Converter* directory contains *convert.cpp* which is a simple C++ utility program I had written  to convert a 2048 byte JX8P binary memory image into corresponding SysEx files. 
+
+The patches can be output as a single .syx file (+ a MIDI message to write each patch into the JX8P memory), or as separate .syx files (with no MIDI message to write the patch into the JX8P memory).
