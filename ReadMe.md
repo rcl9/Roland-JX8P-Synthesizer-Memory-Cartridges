@@ -20,14 +20,6 @@ The first variation of the design used a DIP switch array to choose the patch ba
 
 <img src="/Schematics/JX8P 256 Voice RAM Cartridge %231 - August 29 1985_Page_1.jpg" alt="" style="width:48%; height:auto;">   <img src="/Schematics/JX8P 256 Voice RAM Cartridge %232 - December 30 1985.jpg" alt="" style="width:48%; height:auto;">
 
-<div style="text-align:center">
-<img src="/Schematics/JX8P 256 Voice RAM Cartridge %231 - August 29 1985_Page_1.jpg" alt="" style="width:70%; height:auto;">
-</div>
-
-<div style="text-align:center">
-<img src="/Schematics/JX8P 256 Voice RAM Cartridge %232 - December 30 1985.jpg" alt="" style="width:70%; height:auto;">
-</div>
-
 An EPROM version was also created to store the same collection of patches in ROM.
 
 Reading and writing the binary images to the RAM cartridges was done via my personally designed "Colossus Control Computer" and its 28 pin Roland-compatible connector interface:
