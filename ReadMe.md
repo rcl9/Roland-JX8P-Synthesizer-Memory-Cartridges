@@ -19,11 +19,11 @@ The 8K 6264 CMOS RAM chips were backed up from a 3V coin battery which was contr
 The first variation of the design used a DIP switch array to choose the patch bank. The second, much more friendly and useful version, used a de-bounced push button to toggle through the 8 banks. It also contained a single digit LED display to show the current patch bank.
 
 <div style="text-align:center">
-<img src="/Schematics/JX8P 256 Voice RAM Cartridge #1 - August 29 1985_Page_1.jpg" alt="" style="width:70%; height:auto;">
+<img src="/Schematics/JX8P 256 Voice RAM Cartridge %231 - August 29 1985_Page_1.jpg" alt="" style="width:70%; height:auto;">
 </div>
 
 <div style="text-align:center">
-<img src="/Schematics/JX8P 256 Voice RAM Cartridge #2 - December 30 1985.jpg" alt="" style="width:70%; height:auto;">
+<img src="/Schematics/JX8P 256 Voice RAM Cartridge %232 - December 30 1985.jpg" alt="" style="width:70%; height:auto;">
 </div>
 
 An EPROM version was also created to store the same collection of patches in ROM.
