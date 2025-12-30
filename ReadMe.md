@@ -4,7 +4,7 @@ This repository documents two designs for a programmable RAM cartridge for the R
 
 Please also refer to my [Roland JX8P Synthesizer Patch Collection](https://github.com/rcl9/Roland-JX8P-Synthesizer-Patch-Collection).
 
-Each RAM cartridge would allow for 16 patches selectable from 8 different banks. The binary images would be saved to/from the cartridges from an external Z80 computer that had a custom Roland-style connector and interface.
+Each RAM cartridge would allow for 32 patches selectable from 8 different banks. The binary images would be saved to/from the cartridges from an external Z80 computer that had a custom Roland-style connector and interface.
 
 <div style="text-align:center">
 <img src="/Images/1985_12 - Roland JX8P synth memory cartridges.jpg" alt="" style="width:70%; height:auto;">
