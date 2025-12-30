@@ -1,6 +1,6 @@
 # Memory Cartridges for the Roland JX8P Synthesizer (from 1985)
 
-This repository documents two designs for a programmable RAM cartridge for the Roland JX8P synthesizer which I had designed and built in late 1985. Prior to this design my only option would have been to buy an expensive Roland MC-16C Memory Cartridge which held just 16 patches. With my new design, the single plug-in cartridge could handle 256 patches and be programmed by an extermal computer.
+This repository documents two designs for a programmable RAM cartridge for the Roland JX8P synthesizer which I had designed and built in late 1985. Prior to this design my only option would have been to buy an expensive Roland MC-16C Memory Cartridge which held just 16 patches. With my new design, the single plug-in cartridge could handle 256 patches and be programmed by an external computer.
 
 Please also refer to my [Roland JX8P Synthesizer Patch Collection](https://github.com/rcl9/Roland-JX8P-Synthesizer-Patch-Collection).
 
@@ -16,11 +16,19 @@ Each RAM cartridge would allow for 16 patches selectable from 8 different banks.
 
 The 8K 6264 CMOS RAM chips were backed up from a 3V coin battery which was controlled by a Dallas DS1210 that converted the CMOS RAM into non-volatile memory.
 
-The first variation of the design used a DIP switch array to choose the patch bank. The second, much more friendly and useful version, used a debounced push button to toggle through the 8 banks. It also contained a single digit LED display to show the current patch bank.
+The first variation of the design used a DIP switch array to choose the patch bank. The second, much more friendly and useful version, used a de-bounced push button to toggle through the 8 banks. It also contained a single digit LED display to show the current patch bank.
+
+<div style="text-align:center">
+<img src="/Schematics/JX8P 256 Voice RAM Cartridge #1 - August 29 1985_Page_1.jpg" alt="" style="width:70%; height:auto;">
+</div>
+
+<div style="text-align:center">
+<img src="/Schematics/JX8P 256 Voice RAM Cartridge #2 - December 30 1985.jpg" alt="" style="width:70%; height:auto;">
+</div>
 
 An EPROM version was also created to store the same collection of patches in ROM.
 
-Reading and writing the binary images to the RAM cartridges was done via my personally designed "Coloussus Control Computer" and its 28 pin Roland-compatible connector interface:
+Reading and writing the binary images to the RAM cartridges was done via my personally designed "Colossus Control Computer" and its 28 pin Roland-compatible connector interface:
 
 <div style="text-align:center">
 <img src="/Images/1985_03 - Colossus Control Computer.jpg" alt="" style="width:70%; height:auto;">
