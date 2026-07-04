@@ -2,6 +2,8 @@
 
 This repository documents two designs for a programmable RAM cartridge for the Roland JX8P synthesizer which I had designed and built in late 1985. Prior to this design my only option would have been to buy an expensive Roland MC-16C Memory Cartridge which held just 16 patches. With my new design, the single plug-in cartridge could handle 256 patches and be programmed by an external computer.
 
+This repository also includes my [JX8P Binary-Memory-Image to SysEx File Converter](</RCL's Patch Converter/convert.cpp>) utility program which loads in 2K JX8P binary images of the memory cartridge and turns them into "SysEx" files which can be sent back to the JX8P via a normal patch librarian. The 32 patches can be output as a single .syx file (+ a MIDI message to write each patch into the JX8P memory) or as 32 separate .syx files (with no MIDI message to write the patch into the JX8P memory).
+
 Please also refer to my [Roland JX8P Synthesizer Patch Collection](https://github.com/rcl9/Roland-JX8P-Synthesizer-Patch-Collection).
 
 Each RAM cartridge would allow for 32 patches selectable from 8 different banks. The binary images would be saved to/from the cartridges from an external Z80 computer that had a custom Roland-style connector and interface.
@@ -30,6 +32,6 @@ Reading and writing the binary images to the RAM cartridges was done via my pers
 
 ## Binary-Image to SysEx File Converter
 
-The *RCL's Patch Converter* directory contains *convert.cpp* which is a simple C++ utility program I had written  to convert a 2048 byte JX8P binary memory image into corresponding SysEx files. 
+The [RCL's Patch Converter](</RCL's Patch Converter>)  directory contains *convert.cpp* which is a simple C++ utility program I had written  to convert a 2048 byte JX8P binary memory image into corresponding SysEx files. 
 
 The patches can be output as a single .syx file (+ a MIDI message to write each patch into the JX8P memory), or as separate .syx files (with no MIDI message to write the patch into the JX8P memory).
